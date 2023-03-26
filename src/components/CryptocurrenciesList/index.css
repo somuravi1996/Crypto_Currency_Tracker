@@ -7,3 +7,10 @@
 .bg-row-content {
   background-color: #092e33;
 }
+
+@media (max-width: 576px) {
+  .cryptocurrency {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+}

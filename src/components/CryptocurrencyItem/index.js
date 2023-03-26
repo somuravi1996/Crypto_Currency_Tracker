@@ -11,7 +11,7 @@ const CryptocurrencyItem = props => {
     <div className="row justify-content-center">
       <div className="col-12 col-md-8 col-lg-8 pt-2 pb-2">
         <div className="row text-white">
-          <div className="col-md-6">
+          <div className="col-6 col-sm-6 col-md-6">
             <div className="d-flex flex-row text-white flex-fill">
               <img
                 style={{width: '30px', height: '30px'}}
@@ -21,10 +21,10 @@ const CryptocurrencyItem = props => {
               <h2 className="coin-name">{currencyName}</h2>
             </div>
           </div>
-          <div className="col-md-3">
+          <div className="col-3 col-sm-3 col-md-3">
             <p className="rate text-center">{euroValue}</p>
           </div>
-          <div className="col-md-3">
+          <div className="col-3 col-sm-3 col-md-3">
             <p className="rate text-center">{usdValue}</p>
           </div>
         </div>

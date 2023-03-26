@@ -46,13 +46,13 @@ class CryptocurrenciesList extends Component {
         <div className="row justify-content-center">
           <div className="col-12 col-md-8 col-lg-8">
             <div className="row text-white bg-row-content">
-              <div className="col-md-6">
+              <div className="col-6 col-sm-6 col-md-6">
                 <h4 className="">Coin Name</h4>
               </div>
-              <div className="col-md-3 text-center">
+              <div className="col-3 col-sm-3 col-md-3 text-center">
                 <h5 className="">USD</h5>
               </div>
-              <div className="col-md-3 text-center">
+              <div className="col-3 col-sm-3 col-md-3 text-center">
                 <h5 className="">EUR</h5>
               </div>
             </div>
